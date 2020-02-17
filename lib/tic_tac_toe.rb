@@ -88,6 +88,6 @@ def over?(board)
   won?(board) || draw?(board) || full?(board) ? true : false
 end
 
-def winnder(board)
+def winner(board)
   over(board) && current_player(board) ? "X" : "O"
 end
