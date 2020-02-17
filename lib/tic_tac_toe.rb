@@ -89,5 +89,5 @@ def over?(board)
 end
 
 def winnder(board)
-  
+  over(board) && current_player(board) ? "X" : "O"
 end
