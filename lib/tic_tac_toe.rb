@@ -89,5 +89,5 @@ def over?(board)
 end
 
 def winner(board)
-  board[won?(board)].include?("X") ? "X" : "O"
+  board[won?(board)][0].include?("X") ? "X" : "O"
 end
