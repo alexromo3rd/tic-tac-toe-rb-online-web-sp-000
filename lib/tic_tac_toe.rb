@@ -89,5 +89,5 @@ def over?(board)
 end
 
 def winner(board)
-  over?(board) && !current_player(board) ? "X" : "O"
+  over?(board) && current_player(board) ? "X" : "O"
 end
