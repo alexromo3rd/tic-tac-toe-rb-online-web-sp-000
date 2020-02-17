@@ -33,6 +33,6 @@ def valid_move?(board, index)
   index.between?(0,8) && !position_taken?(board, index)
 end
 
-def turn(board)
-  move if valid_move?(board, index)
+def turn(board, index)
+  move(board, index, token) if valid_move?(board, index)
 end
