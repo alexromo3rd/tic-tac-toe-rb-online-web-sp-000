@@ -75,19 +75,19 @@ def won?(board)
   end
   false
 end
-
-def full?(board)
-  board.include?(" ") ? false : true
-end
-
-def draw?(board)
-  !won?(board) && full?(board) ? true : false
-end
-
-def over?(board)
-  won?(board) || draw?(board) || full?(board) ? true : false
-end
-
-def winner(board)
-  $winner
-end
+# 
+# def full?(board)
+#   board.include?(" ") ? false : true
+# end
+#
+# def draw?(board)
+#   !won?(board) && full?(board) ? true : false
+# end
+#
+# def over?(board)
+#   won?(board) || draw?(board) || full?(board) ? true : false
+# end
+#
+# def winner(board)
+#   $winner
+# end
