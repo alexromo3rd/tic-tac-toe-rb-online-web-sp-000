@@ -58,21 +58,19 @@ def current_player(board)
 end
 
 def won?(board)
-  WIN_COMBINATIONS.each do |combs|
-    win_index_1 = combs[0]
-    win_index_2 = combs[1]
-    win_index_3 = combs[2]
+  WIN_COMBINATIONS.each do |comb|
+    win_index_1 = comb[0]
+    win_index_2 = comb[1]
+    win_index_3 = comb[2]
 
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      $winner = "X"
-      return true
+      return comb
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      $winner = "O"
-      return true
+      return comb
     end
   end
   false
