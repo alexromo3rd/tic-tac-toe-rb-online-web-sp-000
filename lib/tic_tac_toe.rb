@@ -49,5 +49,5 @@ def turn_count(board)
   move_count = 0
   board.each do |turn|
     move_count += 1 if !turn.include?(" ") || !turn.include?(nil)
-
+  end
 end
