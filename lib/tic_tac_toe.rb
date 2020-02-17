@@ -99,8 +99,6 @@ def winner(board)
 end
 
 def play(board)
-  if !over?(board)
-    turn(board)
-  end
+  turn(board)
   over?(board)
 end
