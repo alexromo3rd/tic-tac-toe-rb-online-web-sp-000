@@ -97,3 +97,6 @@ def winner(board)
     "O"
   end
 end
+
+def play
+end
