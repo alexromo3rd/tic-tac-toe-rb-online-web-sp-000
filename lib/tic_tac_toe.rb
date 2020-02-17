@@ -103,6 +103,8 @@ def play(board)
     turn(board)
   end
 
-  if over?(board)
+  if full?(board) && !draw?(board)
     puts "Congratulations #{winner(board)}!"
+  else
+    puts "Cat's Game!"
 end
