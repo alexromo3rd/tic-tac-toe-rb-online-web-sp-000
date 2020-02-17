@@ -72,9 +72,9 @@ def won?(board)
     position_3 = board[win_index_3]
 
     if win_index_1 == "X" && win_index_2 == "X" && win_index_3 == "X"
-      combo
+      true
     elsif win_index_1 == "O" && win_index_2 == "O" && win_index_3 == "O"
-      combo
+      true
     else
     end
   end
