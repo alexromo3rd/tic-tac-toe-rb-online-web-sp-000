@@ -90,5 +90,4 @@ end
 
 def winner(board)
   board[won?(board)[0]].include?("X") ? "X" : "O"
-  return nil if draw?(board)
 end
