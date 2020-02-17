@@ -90,7 +90,7 @@ end
 
 def winner(board)
   if board[won?(board)].class != Array
-    return nil
+    nil
   elsif board[won?(board)[0]].include?("X")
     "X"
   else
