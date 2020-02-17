@@ -89,7 +89,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == false
+  if !won?(board)
     nil
   elsif board[won?(board)[0]].include?("X")
     "X"
