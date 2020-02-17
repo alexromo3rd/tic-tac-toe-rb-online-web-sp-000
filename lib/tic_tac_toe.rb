@@ -34,5 +34,5 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-  valid_move?(board, index)
+  
 end
