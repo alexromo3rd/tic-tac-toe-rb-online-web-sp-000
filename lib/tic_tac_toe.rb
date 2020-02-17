@@ -89,5 +89,5 @@ def over?(board)
 end
 
 def winner(board)
-  turn_count(board).even? ? "X" : "O"
+  turn_count(board).odd? ? "X" : "O"
 end
