@@ -52,3 +52,7 @@ def turn_count(board)
   end
   move_count
 end
+
+def current_player(board)
+  "X" if turn_count(board) % 2 == 0
+end
