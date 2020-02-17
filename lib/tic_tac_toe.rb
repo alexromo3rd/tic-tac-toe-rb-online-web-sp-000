@@ -75,8 +75,6 @@ def won?(board)
       true
     elsif win_index_1 == "O" && win_index_2 == "O" && win_index_3 == "O"
       true
-    else
-      false
     end
   end
 end
