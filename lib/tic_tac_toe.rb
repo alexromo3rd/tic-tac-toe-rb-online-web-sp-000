@@ -89,7 +89,7 @@ def over?(board)
 end
 
 def winner(board)
-  if draw?(board)
+  if board[won?(board)].class != Array
     return nil
   elsif board[won?(board)[0]].include?("X")
     "X"
