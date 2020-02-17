@@ -89,5 +89,5 @@ def over?(board)
 end
 
 def winner(board)
-  $winner
+  won?(board).include?("X") ? "X" : "O"
 end
