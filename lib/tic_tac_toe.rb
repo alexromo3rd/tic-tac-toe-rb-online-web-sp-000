@@ -91,5 +91,5 @@ def over?(board)
 end
 
 def winner(board)
-  WINNER
+  return WINNER
 end
