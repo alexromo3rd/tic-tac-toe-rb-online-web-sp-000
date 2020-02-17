@@ -90,7 +90,7 @@ end
 
 def winner(board)
   if draw?(board)
-    nil
+    return nil
   elsif board[won?(board)[0]].include?("X")
     "X"
   else
