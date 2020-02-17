@@ -81,5 +81,5 @@ def won?(board)
 end
 
 def full?(board)
-  true if board.count == 8
+  true if board.count == 9
 end
