@@ -91,5 +91,5 @@ def over?(board)
 end
 
 def winner(board)
-  current_player(board)
+  WINNER
 end
