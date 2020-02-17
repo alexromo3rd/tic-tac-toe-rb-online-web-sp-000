@@ -81,5 +81,9 @@ def won?(board)
 end
 
 def full?(board)
-  false if board.include?(" ") || board.include?(nil)
+  if board.include?(" ") || board.include?(nil)
+    false
+  else
+    true
+  end
 end
