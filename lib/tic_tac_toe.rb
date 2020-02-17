@@ -77,9 +77,9 @@ def won?(board)
 end
 
 def full?(board)
-  board.include?(" ") || board.include?(nil) ? false : true
+  board.include?(" ") ? false : true
 end
 
 def draw?(board)
-  
+
 end
