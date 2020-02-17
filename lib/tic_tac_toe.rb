@@ -79,3 +79,7 @@ end
 def full?(board)
   board.include?(" ") || board.include?(nil) ? false : true
 end
+
+def draw?(board)
+  
+end
